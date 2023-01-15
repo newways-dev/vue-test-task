@@ -143,4 +143,57 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.widget {
+  border: 0;
+  margin: 0 0 2em 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+.widget a {
+  text-decoration: none;
+}
+.widget ul {
+  list-style: none;
+  margin-left: 0;
+}
+.widget-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  list-style: none;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: left;
+}
+.widget-title a {
+  text-decoration: none;
+}
+/* Make sure select elements fit in widgets */
+.widget select {
+  max-width: 100%;
+}
+/* Search widget */
+.widget_search .search-submit {
+  display: none;
+}
+.widget_search input[type='search'] {
+  width: 70%;
+}
+.widget_recent_comments ul li:before,
+.widget_categories ul li:before,
+.widget_archive ul li:before,
+.widget_links ul li:before,
+.widget_meta ul li:before,
+.widget_pages ul li:before,
+.widget_recent_entries ul li:before {
+  content: '\f105';
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+.widget a {
+  color: inherit;
+}
+</style>
