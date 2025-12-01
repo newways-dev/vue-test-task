@@ -28,28 +28,3 @@ The goal of the assignment was to:
 This is not a production project, but a compact learning exercise that shows how I approached Vue from scratch and structured a small blog page.
 
 ---
-
-## 🎯 Learning Goals
-
-During this test task the focus was on:
-
-- 🧩 **Component-based UI** – splitting the blog into reusable pieces (layout, header, post list, post item, etc.)
-- 🔄 **Data binding & reactivity** – rendering posts from data instead of hardcoded markup
-- 🧵 **Props & one-way data flow** – passing data into child components
-- 🧱 **Basic layout & styling** – simple, readable blog layout with standard HTML + CSS
-- 🛠 **Working with Vue CLI** – running dev server, building production bundle, linting
-
----
-
-## 🛠 Tech Stack
-
-<div align="center">
-
-| Category       | Technology |
-|----------------|-----------|
-| **Framework**  | Vue.js (Vue CLI app) |
-| **Language**   | JavaScript (ES6+) |
-| **Markup**     | HTML5 |
-| **Styling**    | CSS3 |
-
-</div>
